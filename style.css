@@ -5,12 +5,16 @@ body {
     background-color: #43BDD9;
 }
 .comic-neue-regular {
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
     font-weight: 400;
     font-style: normal;
 }
 .headinggraphics {
     display: flex;
+    padding-left: 20px;
+}
+#welcome {
+    margin-top: 50px;
     padding: 20px;
 }
 h1 {
@@ -103,19 +107,20 @@ footer {
     font-style: italic;
 }
 .cvitems {
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .cvheader {
     background-color: #03A688;
     text-align: center;
-    margin-left: 360px;
+    margin-left: 280px;
     width: 240px;
     height: 140px;
     border-radius: 30px;
 }
+/* Color scheme courtesy of The Rainbow Fish by Marcus Pfister */
 .cvsubheader {
     background-color: #03A688;
-    margin-left: 220px;
+    margin-left: 210px;
     margin-top: 10px;
     margin-bottom: 20px;
     width: 240px;
@@ -134,9 +139,9 @@ footer {
     background-color: #18A2D9;
     border-radius: 30px;
     margin-top: 20px;
+    margin-left: 70px;
     padding: 10px;
     padding-left: 20px;
-    margin: 10px;
 }
 .research {
     font-family: "Open Sans";
@@ -205,7 +210,7 @@ footer {
 }
 .blogpost4 {
     font-family: "Open Sans";
-    height: 140px;
+    height: 320px;
     width: 900px;
     padding: 10px;
     padding-left: 20px;
@@ -213,4 +218,25 @@ footer {
     margin-top: 30px;
     background-color: #18A2D9;
     border-radius: 30px;
+}
+.photosections {
+    font-family: "Comic Neue";
+    display: flex;
+}
+.photopagesource {
+    height: 500px;
+}
+.photo1 {
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    border: 20px;
+    background-color: #18A2D9;
+}
+.photo2 {
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    border: 20px;
+    background-color: #D93D86;
 }
